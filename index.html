@@ -3,6 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- SEO 적용 -->
+        <meta name="description" content="I'm lovin' it 맥도날드!" />
+        <meta name="keywords" content="맥도날드, 햄버거, 빅맥, 상하이" />
+        <meta property="og:title" content="맥도날드" />
+        <meta property="og:description" content="맥도날드, 햄버거, 빅맥, 상하이" />
+        <meta property="og:image" content="https://kwakjkh.github.io/mcd_cloning/images/live%204.jpg" />
+        <meta property="og:url" content="https://kwakjkh.github.io/mcd_cloning/" />
+        <meta property="og:site_name" content="맥도날드" />
+        <meta property="og:type" content="website" />
+        <!-- 파비콘 -->
     <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
@@ -15,8 +25,9 @@
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
     <title>맥도날드</title>
 </head>
 <body>
@@ -43,14 +54,30 @@
                         <li><a href="#">ENG</a></li>
                     </ul>
                     <div class="search">
-                        <a href="#"><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></a>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass fa-2x" style="color: #000000;"></i></a>
                     </div>
                 </div>
             </div>
         </header>
         <!-- 배너 -->
         <div class="banner">
-
+            <div class="swiper banner-inner">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><a href="#"></a></div>
+                  <div class="swiper-slide"><a href="#"></a></div>
+                  <div class="swiper-slide"><a href="#"></a></div>
+                  <div class="swiper-slide"><a href="#"></a></div>
+                  <div class="swiper-slide"><a href="#"></a></div>
+                  <div class="swiper-slide"><a href="#"></a></div>
+                  <div class="swiper-slide"><a href="#"></a></div>
+                  <div class="swiper-slide"><a href="#"></a></div>
+                  <div class="swiper-slide"><a href="#"></a></div>
+                  <div class="swiper-slide"><a href="#"></a></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
         </div>
         <!-- McDonald's Live -->
         <main class="main">
@@ -104,5 +131,6 @@
             </div>
         </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 </html>
