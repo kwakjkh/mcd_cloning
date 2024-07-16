@@ -161,17 +161,91 @@ ul, li, a{
     max-width: 1200px;
     margin: 0 auto;
     padding: 30px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
 }
 .main h1{
     font-size: 40px;
     margin-bottom: 60px;
+    
 }
 .live{
     width: 100%;
+    
+}
+.lives{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.live li{
+.lives li{
     width: calc(100% / 3 - 10px);
+    border-radius: 10px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+    margin: 10px 0;
+}
+.third-live li:last-child{
+    box-shadow: none;
+}
+
+.second-live{
+    display: none;
+}
+.second-live.second{
+    display: flex;
+}
+.third-live{
+    display: none;
+}
+.third-live.third{
+    display: flex;
+}
+.bt-box.close{
+    display: none;
+}
+
+.live img{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+.live p{
+    width: 100%;
+    aspect-ratio: 2.45;
+    padding: 24px;
+    font-size: 17px;
+    font-weight: bolder;
+    color: black;
+    line-height: 2;
+}
+.bt-box{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.live-bt1{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: url("/images/button.png");
+    border: none;
+    cursor: pointer;
+}
+.live-bt1.button1{
+    display: none;
+}
+.live-bt2{
+    display: none;
+    width: 90px;
+    height: 90px;
+    background: url("/images/button.png");
+    border: none;
+    cursor: pointer;
+}
+.live-bt2.button2{
+    display: inline-block;
+}
+/* 하단메뉴 */
+.footer{
+    background-color: #292929;
 }

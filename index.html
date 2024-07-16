@@ -1,136 +1,223 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- SEO 적용 -->
-        <meta name="description" content="I'm lovin' it 맥도날드!" />
-        <meta name="keywords" content="맥도날드, 햄버거, 빅맥, 상하이" />
-        <meta property="og:title" content="맥도날드" />
-        <meta property="og:description" content="맥도날드, 햄버거, 빅맥, 상하이" />
-        <meta property="og:image" content="https://kwakjkh.github.io/mcd_cloning/images/live%204.jpg" />
-        <meta property="og:url" content="https://kwakjkh.github.io/mcd_cloning/" />
-        <meta property="og:site_name" content="맥도날드" />
-        <meta property="og:type" content="website" />
-        <!-- 파비콘 -->
-    <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
-    <link rel="manifest" href="icons/site.webmanifest">
-    <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO 적용 -->
+    <meta name="description" content="I'm lovin' it 맥도날드!" />
+    <meta name="keywords" content="맥도날드, 햄버거, 빅맥, 상하이" />
+    <meta property="og:title" content="맥도날드" />
+    <meta property="og:description" content="맥도날드, 햄버거, 빅맥, 상하이" />
+    <meta property="og:image" content="https://kwakjkh.github.io/mcd_cloning/images/live%204.jpg" />
+    <meta property="og:url" content="https://kwakjkh.github.io/mcd_cloning/" />
+    <meta property="og:site_name" content="맥도날드" />
+    <meta property="og:type" content="website" />
+    <!-- 파비콘 -->
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png" />
+    <link rel="manifest" href="icons/site.webmanifest" />
+    <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
     <title>맥도날드</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <!-- 머리 메뉴바 -->
-        <header class="header">
-            <div class="header-inner">
-                <!-- 로고 -->
-                <div class="logo">
-                    <img src="images/M logo.png" alt="로고이미지">
-                </div>
-                <!-- nav 메뉴 -->
-                <ul class="nav">
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">What's new</a></li>
-                    <li><a href="#">Store</a></li>
-                    <li><a href="#">Story</a></li>
-                </ul>
-                <!-- 버튼메뉴 -->
-                <div class="util">
-                    <ul class="button">
-                        <li><a href="#">임차문의</a></li>
-                        <li><a href="#">RECRUIT</a></li>
-                        <li><a href="#">ENG</a></li>
-                    </ul>
-                    <div class="search">
-                        <a href="#"><i class="fa-solid fa-magnifying-glass fa-2x" style="color: #000000;"></i></a>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- 배너 -->
-        <div class="banner">
-            <div class="swiper banner-inner">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide"><a href="#"></a></div>
-                  <div class="swiper-slide"><a href="#"></a></div>
-                  <div class="swiper-slide"><a href="#"></a></div>
-                  <div class="swiper-slide"><a href="#"></a></div>
-                  <div class="swiper-slide"><a href="#"></a></div>
-                  <div class="swiper-slide"><a href="#"></a></div>
-                  <div class="swiper-slide"><a href="#"></a></div>
-                  <div class="swiper-slide"><a href="#"></a></div>
-                  <div class="swiper-slide"><a href="#"></a></div>
-                  <div class="swiper-slide"><a href="#"></a></div>
-                </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-pagination"></div>
-              </div>
-        </div>
-        <!-- McDonald's Live -->
-        <main class="main">
-            <h1>McDonald's LIVE</h1>
-            <ul class="live">
-                <li><a href="#"><img src="images/live 1.png" alt="뉴스1"><p>버거 세트 구매 시 <br>사이드 무료 교환 안내</p></a></li>
-                <li><a href="#"><img src="images/live 2.jpg" alt="뉴스2"><p>NEW 맥스파이시 상하이를 만나보세요!</p></a></li>
-                <li><a href="#"><img src="images/live 3.jpg" alt="뉴스3"><p>쌀가루로 더 바삭해진 NEW 맥스파이시!</p></a></li>
-                <li><a href="#"><img src="images/live 4.jpg" alt="뉴스4"><p>신선한 토마토와 고소한 치즈버거의 조화! <br>토마토 치즈 비프 버거 출시!</p></a></li>
-                <li><a href="#"><img src="images/live 5.jpg" alt="뉴스5"><p>가성비 간식 맛집 <br>맥도날드 해피스낵!</p></a></li>
-                <li><a href="#"><img src="images/live 6.jpg" alt="뉴스6"><p>겉은 바삭! 속은 쫄깃 <br> 여름엔 역시 맥윙!</p></a></li>
-                <li><a href="#"><img src="images/live 7.jpg" alt="뉴스7"><p>빠삭하게 빠져드는 맛, 맥크리스피!</p></a></li>
-                <li><a href="#"><img src="images/live 8.jpg" alt="뉴스8"><p>갓 구워내 따뜻하고 신선한 <br>베이컨 토마토 에그 머핀!</p></a></li>
-                <li><a href="#"><img src="images/live 9.jpg" alt="뉴스9"><p>상콤달콤! <br>NEW 자두 천도복숭아 칠러 출시!</p></a></li>
-                <li><a href="#"><img src="images/live 10.jpg" alt="뉴스10"><p>맥도날드와 함께 성장할 크루와 매니저를 찾습니다</p></a></li>
-                <li><a href="#"><img src="images/live 11.png" alt="뉴스11"><p>우리가 엄격해질수록 <br> 버거는 더 맛있어지니까!</p></a></li>
-                <li><a href="#"><img src="images/live 12.jpg" alt="뉴스12"><p>0.1초에 1잔! <br>매일 마시는 커피를 더 맛있게</p></a></li>
-                <li><a href="#"><img src="images/live 13.jpg" alt="뉴스13"><p>전문 코치들의 체계적이고 전문적인<br>교육을 통해 지역사회 행복에 기여합니다</p></a></li>
-                <li><a href="#"><img src="images/live 14.png" alt="뉴스14"><p>귀하의 토지,건물에 맥도날드를 유치<br>하세요!</p></a></li>
+      <!-- 머리 메뉴바 -->
+      <header class="header">
+        <div class="header-inner">
+          <!-- 로고 -->
+          <div class="logo">
+            <img src="images/M logo.png" alt="로고이미지" />
+          </div>
+          <!-- nav 메뉴 -->
+          <ul class="nav">
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">What's new</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Story</a></li>
+          </ul>
+          <!-- 버튼메뉴 -->
+          <div class="util">
+            <ul class="button">
+              <li><a href="#">임차문의</a></li>
+              <li><a href="#">RECRUIT</a></li>
+              <li><a href="#">ENG</a></li>
             </ul>
-        </main>
-        <!-- 하단 메뉴 -->
-        <footer class="footer">
+            <div class="search">
+              <a href="#"><i class="fa-solid fa-magnifying-glass fa-2x" style="color: #000000"></i></a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- 배너 -->
+      <div class="banner">
+        <div class="swiper banner-inner">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><a href="#"></a></div>
+            <div class="swiper-slide"><a href="#"></a></div>
+            <div class="swiper-slide"><a href="#"></a></div>
+            <div class="swiper-slide"><a href="#"></a></div>
+            <div class="swiper-slide"><a href="#"></a></div>
+            <div class="swiper-slide"><a href="#"></a></div>
+            <div class="swiper-slide"><a href="#"></a></div>
+            <div class="swiper-slide"><a href="#"></a></div>
+            <div class="swiper-slide"><a href="#"></a></div>
+            <div class="swiper-slide"><a href="#"></a></div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <!-- McDonald's Live -->
+      <main class="main">
+        <h1>McDonald's LIVE</h1>
+        <ul class="live">
+            <div class="first-live lives">
+                <li>
+                  <a href="#"
+                    ><img src="images/live 1.png" alt="뉴스1" />
+                    <p>버거 세트 구매 시 <br />사이드 무료 교환 안내</p></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="images/live 2.jpg" alt="뉴스2" />
+                    <p>NEW 맥스파이시 상하이를 만나보세요!</p></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="images/live 3.jpg" alt="뉴스3" />
+                    <p>쌀가루로 더 바삭해진 NEW 맥스파이시!</p></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="images/live 4.jpg" alt="뉴스4" />
+                    <p>신선한 토마토와 고소한 치즈버거의 조화! <br />토마토 치즈 비프 버거 출시!</p></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="images/live 5.jpg" alt="뉴스5" />
+                    <p>가성비 간식 맛집 <br />맥도날드 해피스낵!</p></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="images/live 6.jpg" alt="뉴스6" />
+                    <p>
+                      겉은 바삭! 속은 쫄깃 <br />
+                      여름엔 역시 맥윙!
+                    </p></a
+                  >
+                </li>
+            </div>
+            <div class="second-live lives">
+                <li>
+                  <a href="#"
+                    ><img src="images/live 7.jpg" alt="뉴스7" />
+                    <p>빠삭하게 빠져드는 맛, 맥크리스피!</p></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="images/live 8.jpg" alt="뉴스8" />
+                    <p>갓 구워내 따뜻하고 신선한 <br />베이컨 토마토 에그 머핀!</p></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="images/live 9.jpg" alt="뉴스9" />
+                    <p>상콤달콤! <br />NEW 자두 천도복숭아 칠러 출시!</p></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="images/live 10.jpg" alt="뉴스10" />
+                    <p>맥도날드와 함께 성장할<br />크루와 매니저를 찾습니다</p></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="images/live 11.png" alt="뉴스11" />
+                    <p>
+                      우리가 엄격해질수록 <br />
+                      버거는 더 맛있어지니까!
+                    </p></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="images/live 12.jpg" alt="뉴스12" />
+                    <p>0.1초에 1잔! <br />매일 마시는 커피를 더 맛있게</p></a
+                  >
+                </li>
+            </div>
+            <div class="third-live lives">
+                <li>
+                  <a href="#"
+                    ><img src="images/live 13.jpg" alt="뉴스13" />
+                    <p>전문 코치들의 체계적이고 전문적인<br />교육을 통해 지역사회 행복에 기여합니다</p></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="images/live 14.png" alt="뉴스14" />
+                    <p>귀하의 토지,건물에 맥도날드를 유치<br />하세요!</p></a
+                  >
+                </li>
+                <li></li>
+            </div>
+        </ul>
+        <div class="bt-box">
+            <button class="live-bt1">
+            <button class="live-bt2">
+            </button>
+        </div>
+    </main>
+      <!-- 하단 메뉴 -->
+      <footer class="footer">
+        <div class="footer-inner">
             <!-- 하단메뉴 -->
             <ul class="footer_nav">
-                <li><a href="#">개인정보 처리방침</a></li>
-                <li><a href="#">위치정보 이용약관</a></li>
-                <li><a href="#">사이트맵</a></li>
-                <li><a href="#">임차문의</a></li>
-                <li><a href="#">고객문의</a></li>
-                <li><a href="#">인재채용</a></li>
+              <li><a href="#">개인정보 처리방침</a></li>
+              <li><a href="#">위치정보 이용약관</a></li>
+              <li><a href="#">사이트맵</a></li>
+              <li><a href="#">임차문의</a></li>
+              <li><a href="#">고객문의</a></li>
+              <li><a href="#">인재채용</a></li>
             </ul>
             <!-- 기업정보 -->
             <ul class="info">
-                <li>한국맥도날드(유)</li>
-                <li>대표이사: 김기원</li>
-                <li>한국맥도날드사업자등록번호: 101-81-26409</li>
-                <li>전화주문: 1600-5252</li>
-                <li>COPYRIGHT ©2019 ALL RIGHTS RESERVED BY McDonald's</li>
+              <li>한국맥도날드(유)</li>
+              <li>대표이사: 김기원</li>
+              <li>한국맥도날드사업자등록번호: 101-81-26409</li>
+              <li>전화주문: 1600-5252</li>
+              <li>COPYRIGHT ©2019 ALL RIGHTS RESERVED BY McDonald's</li>
             </ul>
             <!-- sns -->
             <ul class="sns">
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
             </ul>
             <!-- 마크 -->
             <div class="mark">
-                <img src="images/web_accessibility.png" alt="web 접근성">
+              <img src="images/web_accessibility.png" alt="web 접근성" />
             </div>
-        </footer>
+        </div>
+      </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-</body>
+  </body>
 </html>
