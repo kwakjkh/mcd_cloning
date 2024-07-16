@@ -113,25 +113,25 @@ ul, li, a{
     background: url("../images/banner 3.jpg") no-repeat center;
 }
 .swiper-slide:nth-child(4) a{
-    background: url("../images/banner 1.jpg") no-repeat center;
+    background: url("../images/banner 4.jpg") no-repeat center;
 }
 .swiper-slide:nth-child(5) a{
-    background: url("../images/banner 1.jpg") no-repeat center;
+    background: url("../images/banner 5.jpg") no-repeat center;
 }
 .swiper-slide:nth-child(6) a{
-    background: url("../images/banner 1.jpg") no-repeat center;
+    background: url("../images/banner 6.jpg") no-repeat center;
 }
 .swiper-slide:nth-child(7) a{
-    background: url("../images/banner 1.jpg") no-repeat center;
+    background: url("../images/banner 7.jpg") no-repeat center;
 }
 .swiper-slide:nth-child(8) a{
-    background: url("../images/banner 1.jpg") no-repeat center;
+    background: url("../images/banner 8.jpg") no-repeat center;
 }
 .swiper-slide:nth-child(9) a{
-    background: url("../images/banner 1.jpg") no-repeat center;
+    background: url("../images/banner 9.jpg") no-repeat center;
 }
 .swiper-slide:nth-child(10) a{
-    background: url("../images/banner 1.jpg") no-repeat center;
+    background: url("../images/banner 10.jpg") no-repeat center;
 }
 
 
@@ -248,4 +248,102 @@ ul, li, a{
 /* 하단메뉴 */
 .footer{
     background-color: #292929;
+}
+.footer-inner{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 45px 25px;
+    height: 260px;
+}
+.footer_nav{
+    float: left;
+    width: 10vw;
+}
+.footer_nav li{
+    margin-bottom: 10px;
+}
+.footer_nav a{
+    color: white;
+    font-weight: 900;
+    font-size: 14px;
+}
+.footer_nav li:first-child a{
+    color: #ffff00;
+}
+.info{
+    float: left;
+}
+.info li{
+    margin-bottom: 10px;
+    color: white;
+    font-size: 14px;
+}
+.mark{
+    margin-left: 20px;
+    width: 100px;
+    float: right;
+}
+.mark img{
+    width: 100%;
+}
+.sns{
+    width: 212px;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+.sns li{
+    width: 40px;
+    height: 40px;
+    /* background-color: black; */
+}
+.sns li a{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    display: block;
+}
+.sns li:first-child a::after{
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    background: url("../images/ico_sns.png") no-repeat;
+}
+.sns li:nth-child(2) a::after{
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    background: url("../images/ico_sns.png") no-repeat;
+    background-position: 0 -40px;
+}
+.sns li:nth-child(3) a::after{
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    background: url("../images/ico_sns.png") no-repeat;
+    background-position: 0 -80px;
+}
+.sns li:nth-child(4) a::after{
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    background: url("../images/ico_sns.png") no-repeat;
+    background-position: 0 -120px;
 }
