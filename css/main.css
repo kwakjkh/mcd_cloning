@@ -10,7 +10,8 @@ ul, li, a{
 
 .header{
     width: 100%;
-    height: 140px;
+    aspect-ratio: 5.48 / 1;
+    max-height: 140px;
     display: block;
 }
 .header-inner{
@@ -24,12 +25,12 @@ ul, li, a{
 }
 .logo{
     float: left;
-    width: 20%;
+    width: 15%;
     height: 100%;
     position: relative;
 }
 .logo img{
-    width: 60%;
+    width: 50%;
     margin-left: 25px;
     position: absolute;
     top: 50%;
@@ -37,7 +38,7 @@ ul, li, a{
     line-height: 140px;
 }
 .nav{
-    width: calc(80% - 306px);
+    width: calc(85% - 306px);
     display: flex;
     float: left;
 }
@@ -47,7 +48,7 @@ ul, li, a{
 .nav li:nth-child(2){
     width: calc( calc( 100% - 60px) / 4 + 60px);
 }
-.nav a{
+.nav li a{
     font-size: 20px;
     font-weight: bolder;
     color: black;
@@ -92,18 +93,37 @@ ul, li, a{
 }
 /* 배너 */
 .banner{
-    width: 100%;
-    
+    margin: 0 auto;
+    width: auto;
+    height: 100%;
 }
 .banner-inner{
     width: 100%;
 }
+
 .banner a{
     display: block;
     width: 100%;
     height: 540px;
+    
 }
-.swiper-slide:nth-child(1) a{
+.swiper-slide{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide a{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    /* background-size: contain; */
+}
+.swiper-slide a img{
+    width: 100%;
+    
+}
+/* .swiper-slide:nth-child(1) a{
     background: url("../images/banner 1.jpg") no-repeat center;
 }
 .swiper-slide:nth-child(2) a{
@@ -132,7 +152,7 @@ ul, li, a{
 }
 .swiper-slide:nth-child(10) a{
     background: url("../images/banner 10.jpg") no-repeat center;
-}
+} */
 
 
 .swiper-button-next, .swiper-button-prev{
@@ -160,7 +180,7 @@ ul, li, a{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 24px;
     /* display: flex;
     flex-direction: column;
     align-items: center; */
@@ -228,6 +248,7 @@ ul, li, a{
     width: 90px;
     height: 90px;
     background: url("/images/button.png");
+    background-size: contain;
     border: none;
     cursor: pointer;
 }
@@ -239,6 +260,7 @@ ul, li, a{
     width: 90px;
     height: 90px;
     background: url("/images/button.png");
+    background-size: contain;
     border: none;
     cursor: pointer;
 }
@@ -255,10 +277,12 @@ ul, li, a{
     margin: 0 auto;
     padding: 45px 25px;
     height: 260px;
+    position: relative;
 }
 .footer_nav{
     float: left;
-    width: 10vw;
+    /* width: 15vw; */
+    margin-right: 5vw;
 }
 .footer_nav li{
     margin-bottom: 10px;
@@ -313,6 +337,7 @@ ul, li, a{
     top: 0;
     right: 0;
     background: url("../images/ico_sns.png") no-repeat;
+    background-size: cover;
 }
 .sns li:nth-child(2) a::after{
     width: 40px;
@@ -324,6 +349,7 @@ ul, li, a{
     right: 0;
     background: url("../images/ico_sns.png") no-repeat;
     background-position: 0 -40px;
+    background-size: cover;
 }
 .sns li:nth-child(3) a::after{
     width: 40px;
@@ -335,6 +361,7 @@ ul, li, a{
     right: 0;
     background: url("../images/ico_sns.png") no-repeat;
     background-position: 0 -80px;
+    background-size: cover;
 }
 .sns li:nth-child(4) a::after{
     width: 40px;
@@ -346,4 +373,5 @@ ul, li, a{
     right: 0;
     background: url("../images/ico_sns.png") no-repeat;
     background-position: 0 -120px;
+    background-size: cover;
 }
