@@ -22,6 +22,7 @@ ul, li, a{
     margin: 0 auto;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .logo{
     float: left;
@@ -90,6 +91,13 @@ ul, li, a{
 .search a{
     width: 100%;
     float: right;
+}
+.bar-icon{
+    display: none;
+    margin-right: 15px;
+}
+.bar-icon a{
+    color: black;
 }
 /* 배너 */
 .banner{
@@ -247,7 +255,7 @@ ul, li, a{
     display: inline-block;
     width: 90px;
     height: 90px;
-    background: url("/images/button.png");
+    background: url("../images/button.png");
     background-size: contain;
     border: none;
     cursor: pointer;
@@ -259,7 +267,7 @@ ul, li, a{
     display: none;
     width: 90px;
     height: 90px;
-    background: url("/images/button.png");
+    background: url("../images/button.png");
     background-size: contain;
     border: none;
     cursor: pointer;

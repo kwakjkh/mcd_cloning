@@ -91,6 +91,11 @@
   .sns {
     right: 15px;
   }
+  .bar-icon{
+    display: block;
+    
+  }
+  
 }
 @media screen and (max-width: 584px) {
   .main h1 {
@@ -112,6 +117,7 @@
   .sns {
     position: static;
     width: 100%;
+    
   }
   .footer_nav {
     margin-top: 10px;
@@ -135,8 +141,8 @@
     white-space: nowrap;
   }
   .sns li {
-    width: calc(100% / 4 - 15px);
-    aspect-ratio: 1 / 1;
+    /* width: calc(100% / 4 - 15px); */
+    /* aspect-ratio: 1 / 1; */
   }
   .info {
     display: flex;
@@ -150,5 +156,11 @@
   }
   .footer_nav a {
     font-size: 12px;
+  }
+  .footer-inner{
+    height: 260px;
+  }
+  .footer_nav a{
+    font-size: 11px;
   }
 }
